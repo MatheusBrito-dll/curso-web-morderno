@@ -12,5 +12,7 @@ console.log(produto.getPreco())
 
 const carro = {preco: 5000, desc: 0.50}
 
-console.log(getPreco.call(carro, 0.17, '$'))
+// contexto e parametros
+console.log(getPreco.call(carro, 0.9, '$'))
+// contexto e parametros em arrays
 console.log(getPreco.apply(carro, [0.17, '$']))
