@@ -50,3 +50,22 @@ receberNomeDoMes(1) // retornará "janeiro"
 receberNomeDoMes(4) // retornará "abril"
 receberNomeDoMes(-1) // retornará "entrada inválida"
 
+/**
+ * O operador -- é usado para decrementar o valor da variável
+ * numero em 1 antes de usá-la para acessar o índice do array mapeamento.
+ * Por exemplo, se o valor de numero for 3, o operador -- irá decrementá-lo 
+ * para 2, e então o valor 2 será usado para acessar o terceiro elemento do array mapeamento, 
+ * que é o mês de março. Isso ocorre porque os índices em um array começam em 0, e não em 1.
+ * O uso do operador -- dentro dos colchetes [ ] faz com que o valor de numero seja decrementado
+ * antes de ser usado como índice no array mapeamento,
+ * o que significa que o mês correspondente ao valor de numero será retornado.
+ * @param {*} numero 
+ * @returns 
+ */
+function receberNomeDoMes(numero) {
+    const mapeamento = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho',
+    'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
+    return mapeamento[--numero];
+    }
+    
+
