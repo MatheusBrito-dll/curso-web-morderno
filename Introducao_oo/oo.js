@@ -1,4 +1,4 @@
-// CÓDIFO NÃO EXECUTAVEL!!
+// CÓDIGO NÃO EXECUTAVEL!!
 
 /**
  * Procedural
