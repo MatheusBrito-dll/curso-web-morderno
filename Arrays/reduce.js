@@ -8,8 +8,8 @@ const alunos = [
     {nome: 'Gabriel', nota: 7, bolsista: true},
     {nome: 'Mariana', nota: 8, bolsista: true}
   ];
- 
 console.log(alunos.map(a => a.nota))
+
 const resultado = alunos.map(a => a.nota).reduce(function(acumulador, atual) {
     console.log(acumulador, atual)
     return acumulador + atual
