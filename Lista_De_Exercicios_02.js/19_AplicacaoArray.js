@@ -15,9 +15,22 @@ function depesasTotais(itens){
     
     return total
 }
-
 console.log(depesasTotais([
     {nome: "Jornal online", categoria: "Informação", preco: 89.99},
     {nome: "Cinema", categoria: "Entretenimento", preco: 150}
 ]))
 
+
+function depesasTotais2(itens) {
+    return itens.map(item => item.preco).reduce((acumulador, valorAtual) => acumulador + valorAtual)
+}
+
+
+console.log(depesasTotais2([
+    {nome: "Jornal online", categoria: "Informação", preco: 89.99},
+    {nome: "Cinema", categoria: "Entretenimento", preco: 150}
+]))
+
+let array_reduce = [1, 1, 1, 1, 1]
+
+console.log(array_reduce.reduce((valorAcumulado, itemAtual) => valorAcumulado + itemAtual))
