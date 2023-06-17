@@ -46,7 +46,7 @@ const objetoTeste = [{
 "salario"   :  2401.69
 }, 
 {
-"id"        :  2,
+"id"        :  2, 
 "nome"      :  "Lucio",
 "sobrenome" :  "Paniago",
 "email"     :  "LucioPaniago@163.com",
@@ -56,3 +56,4 @@ const objetoTeste = [{
 "empresa"   :  "IFMT",
 "salario"   :  3456.32
 }]
+
